@@ -9,3 +9,6 @@ node -v
 npm install
 
 npm run strapi develop
+Version: 2 
+
+!!!working repo on git:"gatsby-backend"!!!
