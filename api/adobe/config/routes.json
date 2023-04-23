@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/adobe",
+      "handler": "adobe.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/adobe",
+      "handler": "adobe.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/adobe",
+      "handler": "adobe.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
