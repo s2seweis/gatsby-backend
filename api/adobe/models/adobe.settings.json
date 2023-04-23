@@ -2,7 +2,8 @@
   "kind": "singleType",
   "collectionName": "adobes",
   "info": {
-    "name": "Adobe"
+    "name": "Adobe",
+    "description": ""
   },
   "options": {
     "increments": true,
@@ -28,6 +29,50 @@
       "required": false
     },
     "image2": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "image3": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "image4": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "image5": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "image6": {
       "model": "file",
       "via": "related",
       "allowedTypes": [
