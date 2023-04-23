@@ -1,0 +1,53 @@
+{
+  "kind": "singleType",
+  "collectionName": "developments",
+  "info": {
+    "name": "Development",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "info": {
+      "type": "text"
+    },
+    "title1": {
+      "type": "string"
+    },
+    "stack": {
+      "type": "component",
+      "repeatable": true,
+      "component": "description.stack-item"
+    },
+    "title2": {
+      "type": "string"
+    },
+    "stack1": {
+      "type": "component",
+      "repeatable": true,
+      "component": "description.stack-item"
+    },
+    "title3": {
+      "type": "string"
+    },
+    "stack2": {
+      "type": "component",
+      "repeatable": true,
+      "component": "description.stack-item"
+    },
+    "title4": {
+      "type": "string"
+    },
+    "stack3": {
+      "type": "component",
+      "repeatable": true,
+      "component": "description.stack-item"
+    }
+  }
+}
